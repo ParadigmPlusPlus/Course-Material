@@ -4,10 +4,12 @@ int3 = 10
 int4 = 0b10
 int5 = 0o10
 int6 = 0x10
+int7 = int("100")
 
 float1 = 2.3
 float2 = .4e7
 float3 = .4e-4
+float4 = float("0.678")
 
 bigFloat = 1.79e308
 infiniteFloat = 1.8e308
