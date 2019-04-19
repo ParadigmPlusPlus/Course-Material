@@ -1,5 +1,5 @@
-coin = "head"
-card = "black"
+coin = input().lower() # head or tail
+card = input().lower() # red or black
 
 if coin == "head" and card == "red":
     print("Yoou won!")

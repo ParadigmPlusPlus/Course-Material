@@ -25,7 +25,7 @@ else:
 
 c = 5
 d = 5
-name = "M"
+name = input()
 if c == d and name == "M":
     print("All condition satisfied")
 elif c == d or name == "M":
