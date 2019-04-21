@@ -8,6 +8,12 @@ print(a / b)
 print(int(a / b))
 print(a % b)
 
+a += b
+a -= b
+a *= b
+a /= b
+a %= b
+
 #string1 = 1 + "String"
 string2 = 2 * "String"
 #string3 = 3 - "String"

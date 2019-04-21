@@ -6,13 +6,13 @@ print(*array, sep = ", ")
 # acssending
 print("\nSort Ascending:")
 array.sort()
-sorted(array)
+array = sorted(array)
 print(*array, sep = ", ")
 
 # descending
 print("\nSort Descending:")
 array.sort(reverse = True)
-sorted(array, reverse = True)
+array = sorted(array, reverse = True)
 print(*array, sep = ", ")
 
 print("\nAdd elements:")
