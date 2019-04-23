@@ -1,30 +1,11 @@
-import random
-array = []
-array = [random.randint(1, 100) for i in range (10)]
-print(*array, sep = ", ")
+print("Please enter 5 integers on the following 5 lines:")
+lst = [] # create an array or list
+lst.append(input()) # add a user input integer into the back
+lst.append(input())
+lst.append(input())
+lst.append(input())
+lst.append(input())
 
-# acssending
-print("\nSort Ascending:")
-array.sort()
-array = sorted(array)
-print(*array, sep = ", ")
-
-# descending
-print("\nSort Descending:")
-array.sort(reverse = True)
-array = sorted(array, reverse = True)
-print(*array, sep = ", ")
-
-print("\nAdd elements:")
-array.append("Unique")
-array.insert(5, "Also Unique")
-array[0] = "Unique"
-print(*array, sep = ", ")
-
-print("\nRemove elements:")
-array.remove("Unique")
-print(*array, sep = ", ")
-array.pop(-1)
-print(*array, sep = ", ")
-del array[4]
-print(*array, sep = ", ")
+# ways to print out an array
+print(lst, end = "\n") 
+print(*lst, sep = ", ")
